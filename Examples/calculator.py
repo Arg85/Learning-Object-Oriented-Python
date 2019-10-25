@@ -1,8 +1,9 @@
 '''
-    A simple calculator using oop in python
+    A simple calculator using object oriented programming in python
 '''
+#The first step would be to create a class having functions to perform the arithmatic operations-
 
-# A calculator class
+# A calculator class 
 class Calc():
     
     # functions to define our operators (+,-,*,/)
@@ -22,7 +23,7 @@ class Calc():
     def div(x, y):
         return x / y
 
-    # Define a function to get our integer inputs   
+    # Define a function to get our inputs   
     @staticmethod
     def get_numbers():
         num1 = int(input("Enter first number: "))
